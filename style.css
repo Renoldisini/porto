@@ -1,0 +1,178 @@
+/* created by : RENOLD ALVAN FUADY
+copyright RAF  */
+
+@font-face {
+    font-family: tycho;
+    src: url(./font/tycho.ttf);
+}
+
+body {
+    height: 300%;
+    width: 100%;
+}
+
+.nav-item :hover {
+    transform: rotate();
+}
+
+.banner {
+    padding-top: 25vh;
+    background-image: url(./assets/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.enol {
+    cursor: -webkit-grabbing;
+}
+
+.luhur {
+    font-family: tycho;
+    color: #f1f1e8;
+}
+
+
+.threeD {
+    color: darkgrey;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+
+}
+
+.threeD:hover {
+    transition: 0.3s;
+    transform: scale(1.1)translate(-45%, -50%);
+
+}
+
+.medsos {
+    height: 15px;
+    width: 30px;
+}
+
+.page {
+    background-color: #dbe7dc;
+    width: 100%;
+
+    padding-top: 150px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+
+.makmumsize {
+    width: 40%;
+    transition: 0.3s;
+}
+
+.makmumsize:hover {
+    width: 45%;
+}
+
+
+.navbar-scroll {
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.6s;
+}
+
+.navbar-scroll .nav-item .nav-link {
+    color: black;
+}
+
+.navbar-scroll .nav-item .nav-link:hover {
+    color: rgb(218, 218, 218);
+}
+
+
+.navbar-scroll .brand-warna {
+    color: black;
+}
+
+.brand-warna {
+    color: rgb(207, 207, 207);
+    font-size: 30px;
+}
+
+.brand-warna:hover {
+    color: rgb(207, 207, 207);
+}
+
+.nav-item .nav-link {
+    display: block;
+    line-height: 36px;
+    color: rgb(207, 207, 207);
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(153, 153, 153);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mb-10 {
+    margin-bottom: 150px;
+}
+
+.btn {
+    text-transform: uppercase !important;
+    vertical-align: bottom !important;
+    border: 0 !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%) !important;
+    font-weight: 500 !important;
+    padding: 0.625rem 1.5rem 0.5rem !important;
+    font-size: .75rem !important;
+    line-height: 1.5 !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box !important;
+}
+
+.quote {
+    font-family: 'Roboto Mono', monospace;
+    ;
+    font-size: 3vh;
+}
+
+.galeri {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.foto {
+    transition: .3s;
+}
+
+.foto:hover {
+    transform: scale(1.1);
+}
+
